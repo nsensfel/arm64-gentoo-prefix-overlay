@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>games@gentoo.org</email>
+		<name>Gentoo Games Project</name>
+	</maintainer>
+	<use>
+		<flag name="debugger">Build with internal debugger</flag>
+		<flag name="fancy-scalers">
+			build with fancy(2xsai, hq2x, etc.) CPU-intensive
+            software video scalers
+		</flag>
+		<flag name="apple2">Build with Apple II+ emulation</flag>
+		<flag name="gb">Build with GameBoy emulation</flag>
+		<flag name="gba">Build with GameBoy Advance emulation</flag>
+		<flag name="lynx">Build with Atari Lynx emulation</flag>
+		<flag name="md">Build with Sega Genesis/MegaDrive emulation</flag>
+		<flag name="nes">Build with Nintendo Entertainment System emulation</flag>
+		<flag name="ngp">Build with Neo Geo Pocket emulation</flag>
+		<flag name="pce">Build with PC Engine (TurboGrafx 16) emulation</flag>
+		<flag name="pce-fast">
+			Build the separate, fast PC Engine (TurboGrafx 16) emulation
+		</flag>
+		<flag name="pcfx">Build with PC-FX emulation</flag>
+		<flag name="psx">Build with PlayStation emulation</flag>
+		<flag name="sms">Build with SMS+GG emulation</flag>
+		<flag name="snes">Build with SNES emulation</flag>
+		<flag name="snes-faust">Build with experimental fast SNES emulation</flag>
+		<flag name="ss">Build with Sega Saturn emulation</flag>
+		<flag name="ssfplay">Build with SSF playback support</flag>
+		<flag name="vb">Build with Virtual Boy emulation</flag>
+		<flag name="wswan">Build with WonderSwan emulation</flag>
+	</use>
+	<upstream>
+		<remote-id type="sourceforge">mednafen</remote-id>
+	</upstream>
+</pkgmetadata>
+
