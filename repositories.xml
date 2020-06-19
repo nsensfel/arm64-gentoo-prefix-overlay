@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+   <repo quality="experimental" status="unofficial">
+   <name>nsensfel-sfos-gentoo-prefix</name>
+   <description><![CDATA[My personal overlay for Gentoo Prefix under SailfishOS.]]></description>
+   <homepage>https://github.com/nsensfel/sfos-gentoo-prefix-overlay</homepage>
+   <owner type="person">
+      <email>spamshield0@noot-noot.org</email>
+      <name><![CDATA[Nathanael Sensfelder]]></name>
+   </owner>
+   <source type="git">git://github.com/nsensfel/sfos-gentoo-prefix-overlay.git</source>
+   <source type="git">https://github.com/nsensfel/sfos-gentoo-prefix-overlay.git</source>
+   <source type="git">git@github.com:nsensfel/sfos-gentoo-prefix-overlay.git</source>
+   <feed>https://github.com/nsensfel/sfos-gentoo-prefix-overlay/commits/master.atom</feed>
+   </repo>
+</repositories>
